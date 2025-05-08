@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+    background-image: url('src/background.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 280px ;
+}
+
+.gelas-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.gelas {
+    width: 100px;
+    height: 150px;
+    border: 2px solid #333;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.teh {
+    background-color: #d4a373;
+}
+
+.kopi {
+    background-color: #4a2c2a;
+    color: white;
+}
+
+.kosong {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.kosong:hover {
+    background-color: #e0e0e0;
+}
